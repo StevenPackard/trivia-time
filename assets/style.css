@@ -1,0 +1,29 @@
+/* Styles */
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(197, 197, 197);
+}
+
+main{
+  flex-grow: 1;
+}
+
+.main-border{
+  border: 5px solid black;
+}
+
+.half-screen{
+  min-height: 50vh;
+}
+.quart-screen{
+  min-height: 25vh;
+}
+/* .tall-row{
+  min-height: 100%;
+}
+
+.tall-col{
+  min-height: 50%;
+} */
